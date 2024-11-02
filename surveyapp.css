@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Added a font family for consistency */
+}
+
+.appbg {
+  background-image: url("C:\Users\L7tec\Desktop\Nilisha Techabled DOCS\vscode\vscode\udemey\typescript-react-project\TechGrow_ReactJSProjects\techgrowsurveywebsite\surveyapp\src\componets\youtube_bgimg.jpg"); /* Update to a relative path */
+  background-size: cover;
+  background-position: center;
+  color: darkorange;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  padding: 2rem; /* Add padding for all screens */
+  filter: brightness(60%);
+}
+
+.survey-logo {
+  width: 100%; /* Responsive width */
+  max-width: 300px; /* Limit the max width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+  margin: 0; /* Reset margin for heading */
+  font-size: 2rem; /* Default font size */
+}
+
+/* Responsive Text Sizes */
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.8rem; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .appbg {
+    padding: 1rem; /* Less padding on small screens */
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem; /* Even smaller font size for very small screens */
+  }
+
+  .survey-logo {
+    max-width: 200px; /* Smaller logo for very small screens */
+  }
+}
