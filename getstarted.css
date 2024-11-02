@@ -1,0 +1,102 @@
+.getstartedbg {
+  background-image: url("C:/Users/L7tec/Desktop/Nilisha Techabled DOCS/vscode/vscode/udemey/typescript-react-project/TechGrow_ReactJSProjects/techgrowsurveywebsite/surveyapp/src/componets/getstartedbg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: darkturquoise;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center;
+  padding: 1rem;
+  filter: brightness(60%);
+}
+
+.signin-container {
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center child elements */
+}
+
+.signin-form {
+  width: 100%; /* Full width of the container */
+}
+
+.signin-form input {
+  width: 90%; /* Make inputs fill the container */
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 1rem; /* Default font size */
+}
+
+.radio-group {
+  margin-bottom: 20px;
+  width: 100%; /* Ensure radio group takes full width */
+  display: flex; /* Fixed typo: changed to flex */
+  flex-direction: row; /* Stack radio options vertically */
+}
+
+.radio-label {
+  display: table-row;
+  align-items: center;
+  margin: 10px 0; /* Spacing between radio options */
+}
+
+.radio-label input {
+  margin-right: 10px; /* Space between radio and label */
+  accent-color: darkturquoise; /* Customize radio button color */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+.signin-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  background: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background: #f40612;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .getstartedbg h1 {
+    font-size: 1rem; /* Adjust heading size for mobile */
+  }
+
+  .signin-container {
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .signin-form input {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .signin-button {
+    font-size: 14px; /* Smaller button font size */
+  }
+}
+
+@media (min-width: 601px) {
+  .signin-form input {
+    font-size: 1rem; /* Standard font size for larger screens */
+  }
+}
